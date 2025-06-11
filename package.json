@@ -1,0 +1,32 @@
+{
+  "name": "cyberpunk-red-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
+    "axios": "^1.6.7",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "json": "^11.0.0",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^7.0.3",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "url": "^0.11.4",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^6.3.5"
+  }
+}
